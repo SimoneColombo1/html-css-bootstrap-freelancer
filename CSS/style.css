@@ -1,9 +1,71 @@
+
 .quadrato{
-height: 420px;
-background-color: blue;
-margin-top: 4rem;
+    height: 80%;
+    width: 100%;
+    border-radius: 5%;
+   
 }
 
 #contenitore-footer{
-    margin-top: 4rem;
+    margin-top: 5rem;
+    padding-top: 2rem ;
+}
+.logo img{
+    width: 40%;
+    height: 40%;
+   
+}
+.line{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   
+}
+
+.line span{
+    display: inline-block;
+    width: 6rem;
+    
+}
+.line span hr{
+    width: 6rem;
+    height: 2px;
+    opacity: 10;
+    margin: 0rem 1rem 0rem 1rem;
+}
+.fa-star{
+    padding-left: 2rem;
+}
+.bg-custom{
+    background-color:#1abc9c ;
+}
+
+.btn-custom{
+   background-color: #1abc9c;
+   border-radius: 10%;
+   
+}
+
+.bg-gray{
+    background-color:#3a546d ;
+}
+
+.color-text{
+    color: #1eae94;
+}
+
+.circle{
+    display: inline-block;
+   font-size: 1.5rem;
+    border-radius: 50%;
+    width:2.5rem ;
+    height: 2.5rem;
+    border: solid 1px white;
+    margin-left: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.bg-black{
+    background-color:#2c3e50 ;
 }
